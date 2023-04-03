@@ -1,0 +1,55 @@
+div{
+    min-width: 100px;
+    min-height: 60px;
+    background-color: #ccc;
+}
+
+input{
+    height: 40px;
+    width: 100px;
+    background-color: #3F7EE5;
+    border: none;
+    color: #fff;
+    margin: 10px;
+}
+
+.container .menu input:hover{
+    background-color: #4876FF;
+    color: #000;
+    cursor: pointer;
+}
+
+.container .logo:hover,
+.container .menu .item:hover{
+    background-color: grey;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0739d1;
+    font-weight: bold;
+}
+
+.container .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container .menu .item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
